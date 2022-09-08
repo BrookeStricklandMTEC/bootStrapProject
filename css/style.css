@@ -1,0 +1,62 @@
+body {
+  background-image: url(../images/background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  letter-spacing: 1.5px;
+}
+
+nav {
+  background-color: aliceblue;
+  color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding: 15px 0px 15px 0px;
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+.sidebar-icon {
+  display: none;
+}
+
+header {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.promote {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 750px) {
+  nav {
+    background-color: aliceblue;
+    position: relative;
+    top: 0;
+    width: 100vw;
+    padding: 5px 0px 5px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar-icon {
+    display: block;
+  }
+  header {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
