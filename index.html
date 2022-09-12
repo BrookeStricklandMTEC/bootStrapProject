@@ -28,14 +28,14 @@
 
 <img src="../bootstrapProject/images/icon.jpg" width="30px" height="30px" class="sidebar-icon" style="margin-left: -7px;" onclick="toggleMenu()">
 
-<div id="menuList">  
-<a href="#"> Overview </a>
-<a href="#"> Content </a>
-<a href="#"> Requirements </a>
-<a href="#"> Tutor </a>
-<a href="#"> Reviews </a>
-<a href="#"> Pricing </a>
-<a href="#"> FAQ </a>
+<div id="menuList" class="nav">  
+    <a href="#"> Overview </a>
+    <a href="#"> Content </a>
+    <a href="#"> Requirements </a>
+    <a href="#"> Tutor </a>
+    <a href="#"> Reviews </a>
+    <a href="#"> Pricing </a>
+    <a href="#"> FAQ </a>
 </div>
 
 
@@ -87,42 +87,29 @@
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
 </body>
 
 <script> 
 
-var menuList = document.getElementById("menuList");
+    var menuList = document.getElementById("menuList");
 
-menuList.style.maxHeight = "0px";
+    menuList.style.maxHeight = "0px";
 
-function toggleMenu(){
+    function toggleMenu(){
 
-if(menuList.style.maxHeight == "0px"){
+        if(menuList.style.maxHeight == "0px"){
 
-    menuList.style.maxHeight = "130px";
+            menuList.style.maxHeight = "130px";
 
-}
+        }
 
-else { 
+        else { 
 
-    menuList.style.maxHeight = "130px";
+            menuList.style.maxHeight = "0px";
 
-}
+        }
 
-
-
-
-}
+    }
 
 
 </script>
